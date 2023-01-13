@@ -1,24 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import CommentDetail from './CommentDetail';
+import ReactDOM from "react-dom/client";
+// import CommentDetail from '../../../components/src/CommentDetail';
+import App from './App';
 
-if (module.hot) {
-  module.hot.accept();
-}
+const el = document.getElementById('root');
+const root = ReactDOM.createRoot(el);
 
-
-const App = () => {
-  return (
-    <div className="ui container comments">
-      <CommentDetail/>
-      <CommentDetail/>
-
-      <CommentDetail/>
-
-      <CommentDetail/>
-
-    </div>
-  );
-};
-
-ReactDOM.render(<App />, document.querySelector("#root"));
+root.render(<App></App>);
