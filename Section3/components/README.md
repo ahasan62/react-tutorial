@@ -8,3 +8,7 @@ so how can we store and nest them so that we don't have to rewrite code all the 
 Video 33. We realised that it is super annoying to duplicate the comment code in the same file. Why not we allocate that to another component? 
 
 Video 34. In this tutorial, we had code in index.js, that we cut and put under a const component called CommentDetail. This was the shift we made.
+
+Video 35. We just nested components in the index.js, commentdetail.
+
+Video 36. How can we change the component, commentdetail's name? We need to use the props system. Either customize how a component looks or how a user interacts with it.
