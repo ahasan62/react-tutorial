@@ -8,11 +8,15 @@ import SiriImage from './images/siri.png'
 function App() { 
     return (
         <div>
-            <div>Personal Digital Assistants</div>
+            <section className='hero is-primary'>
+                <div className='hero-body'>
+                    <p className='title'>Personal  Digital Assistants</p>
+                </div>
+            </section>
                 <div className='container'>
                     <section className='section'>
                     <div className='columns'>
-
+    
                         <div className='column is-4'>
                         <ProfileCard title = 'Saul' handle = '@speedyjustice4u' image = {AlexaImage} />
 

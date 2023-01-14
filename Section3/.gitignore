@@ -1,0 +1,26 @@
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# IDE files
+.idea/
+
+# MacOS files
+.DS_Store
+
+# Build output
+build/
+
+# Environment variables
+.env
+
+# Public
+public/
+
+# Coverage
+coverage/
