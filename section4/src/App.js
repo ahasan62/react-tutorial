@@ -6,9 +6,9 @@ function getRandomAnimal(){
 
 
 function App() {
-  const [animal,setAnimal] = useState()
+  const [animal,setAnimal] = useState([])
   const handleClick = () => {
-    setAnimal(getRandomAnimal);
+    setAnimal([...animal,getRandomAnimal()]);
   };
   return (
     <div >
