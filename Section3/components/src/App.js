@@ -8,11 +8,10 @@ function App() {
     return (
         <div>
             <div>Personal Digital Assistants</div>
-            <img src={AlexaImage} />
-            <img src={SiriImage} />
-            <ProfileCard title = 'Saul' handle = '@speedyjustice4u' />
-            <ProfileCard title = 'Gus' handle = '@ceoLPH' />
-            <ProfileCard title = 'Mike' handle = '@securityconsultant' />
+        
+            <ProfileCard title = 'Saul' handle = '@speedyjustice4u' image = {AlexaImage} />
+            <ProfileCard title = 'Gus' handle = '@ceoLPH' image = {CortanaImage}/>
+            <ProfileCard title = 'Mike' handle = '@securityconsultant' image = {SiriImage}/>
 
         </div>
     );
