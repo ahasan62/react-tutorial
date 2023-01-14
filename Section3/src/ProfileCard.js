@@ -10,6 +10,10 @@ function ProfileCard(props) {
             <div class="media-content">
             <div> {props.title}</div>
             <div> {props.handle}</div>
+            <div class="content">
+
+            <div> {props.bio}</div>
+            </div>
       </div>
     </div>
 

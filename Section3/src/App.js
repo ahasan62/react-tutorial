@@ -18,15 +18,15 @@ function App() {
                     <div className='columns'>
     
                         <div className='column is-4'>
-                        <ProfileCard title = 'Saul' handle = '@speedyjustice4u' image = {AlexaImage} />
+                        <ProfileCard title = 'Saul' handle = '@speedyjustice4u' image = {AlexaImage} bio ="better call saul!" />
 
                         </div>
                         <div className='column is-4'>
-                        <ProfileCard title = 'Gus' handle = '@ceoLPH' image = {CortanaImage}/>
+                        <ProfileCard title = 'Gus' handle = '@ceoLPH' image = {CortanaImage} bio ="kys"/>
 
                             </div>
                             <div className='column is-4'>
-                            <ProfileCard title = 'Mike' handle = '@securityconsultant' image = {SiriImage}/>
+                            <ProfileCard title = 'Mike' handle = '@securityconsultant' image = {SiriImage} bio ="die"/>
                             </div>
                             </div>
                     </section>
