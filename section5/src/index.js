@@ -5,7 +5,7 @@ import App from './App.js'
 const el = document.getElementById('root');
 const root = ReactDOM.createRoot(el);
 
-searchImages();
+searchImages('cars');
 
 
 
