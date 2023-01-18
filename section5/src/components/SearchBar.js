@@ -1,5 +1,5 @@
-import useState from 'react';
-
+import { useState } from 'react';
+import './SearchBar.css'
 
 function SearchBar(props) { 
     const [term, setTerm] = useState('');
@@ -7,16 +7,17 @@ function SearchBar(props) {
 
     const handleFormSubmit = (event) => { 
         event.preventDefault();    
-        props.onSubmit(
+        props.onSubmit(term);
+    };
 
-            document.querySelector('input').value
-        );
-    }
+    const handleChange = (event) => {
+        setTerm(event.target.value);
 
-    const handleChange = () => {}
-return ( <div>
-        <form onSubmit = {handleFormSubmit}>
-        <input onChange = {handleChange}/>
+
+    };
+return ( <div className='search-bar'>
+        <form  onSubmit = {handleFormSubmit}>
+        <input  value={term} onChange = {handleChange}/>
         </form>
         </div>
 );
