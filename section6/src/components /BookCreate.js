@@ -14,7 +14,7 @@ function BookCreate({onCreate}) {
         setTitle('');
 
     }
-    return  <div>
+    return  ( <div className='book-create'>
         <form onSubmit={handleSubmit}> 
             <label>
                 Title
@@ -23,5 +23,6 @@ function BookCreate({onCreate}) {
             <button>Create!</button>
         </form>
         </div>
+    );
 }
 export default BookCreate;
