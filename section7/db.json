@@ -1,0 +1,28 @@
+{
+  "books": [
+    {
+      "title": "mein kampf",
+      "id": 1
+    },
+    {
+      "title": "Harry Potter",
+      "id": 2
+    },
+    {
+      "title": "fwggwr",
+      "id": 3
+    },
+    {
+      "title": ";p;",
+      "id": 4
+    },
+    {
+      "title": "dei",
+      "id": 5
+    },
+    {
+      "title": "LOLOL",
+      "id": 6
+    }
+  ]
+}
